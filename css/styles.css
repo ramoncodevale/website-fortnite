@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizzing: border-box;
@@ -21,7 +21,7 @@ body {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background: radial-gradient(#f9d349,20%, #d57e12);
+  background: radial-gradient(#f9d349, 20%, #d57e12);
   position: relative;
 }
 
@@ -33,11 +33,10 @@ body {
   color: white;
 }
 
-.hero header{
+.hero header {
   display: flex;
   justify-content: space-between;
   padding: 40px 0 30px;
-
 }
 
 nav ul li {
@@ -52,11 +51,11 @@ nav ul li a {
   font-size: 15px;
   font-weight: 600;
   border-bottom: 2px solid transparent;
-  transition: .4s; 
+  transition: 0.4s;
 }
 
-nav ul li:not( :last-child) a:hover, 
-nav ul li:not( :last-child) a:focus {
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
   border-bottom: 2px solid white;
 }
 
@@ -69,6 +68,16 @@ nav ul li.btn a {
   color: white;
   border: 1px solid #f5dca8;
   padding: 9px 20px;
-  
+  border-radius: 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 150px;
 }
 
+nav ul li.btn:hover a {
+  border: 1px solid white;
+  color: black;
+  background: white;
+  transition: 0.4s;
+}
